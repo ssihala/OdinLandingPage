@@ -7,7 +7,7 @@ button{
     width: fit-content;
 }
 
-img{
+.species{
     width: 350px;
     height: 300px;
 }
@@ -40,4 +40,8 @@ button{
 .header-body{
     display: flex;
     justify-content: space-between;
+}
+
+img{
+    width:800px;
 }
