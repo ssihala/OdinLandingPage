@@ -1,0 +1,32 @@
+.header{
+    background-color: #16AA74;
+}
+
+button{
+    background-color: pink;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links{
+    display: flex;
+    gap:8px;
+    margin-right: 24px;
+}
