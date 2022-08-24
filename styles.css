@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 .header{
     background-color: #16AA74;
 }
@@ -24,6 +28,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 24px;
 }
 
 .header-links{
@@ -40,6 +45,8 @@ button{
 .header-body{
     display: flex;
     justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 img{
