@@ -4,6 +4,7 @@
 
 button{
     background-color: pink;
+    width: fit-content;
 }
 
 img{
@@ -29,4 +30,14 @@ button{
     display: flex;
     gap:8px;
     margin-right: 24px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-body{
+    display: flex;
+    justify-content: space-between;
 }
