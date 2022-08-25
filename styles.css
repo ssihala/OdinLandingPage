@@ -23,6 +23,8 @@ button{
 .species{
     width: 350px;
     height: 300px;
+    border: 8px #16AA74 solid;
+    border-radius: 16px;
 }
 
 ul{
@@ -32,11 +34,13 @@ ul{
 button{
     border-radius: 10px;
     font-size: 24px;
-    margin-top:18px
+    margin-top:18px;
+    padding:8px;
 }
 
 .subtext{
     font-size:24px;
+    text-align: center;
 }
 
 .header-top{
@@ -49,7 +53,6 @@ button{
 .header-links{
     display: flex;
     gap:8px;
-    font-family:'Times New Roman', Times, serif;
     font-size: 24px;
     margin-right: 24px;
 }
@@ -71,3 +74,18 @@ img{
     width:1000px;
     margin: 24px;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.species-list{
+    display: flex;
+    justify-content: center;
+    gap:18px
+}
+
